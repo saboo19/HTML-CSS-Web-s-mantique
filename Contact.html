@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>hackers|Contact</title>
+</head>
+<body>
+    <header>
+        <div class="image">
+            <img src="hacking.png" alt="Cyber, hacker, white hat icon" class="icon-image">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Auteur.html">Auteur</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="formulaire">
+        <section>
+            <h1>Contactez-nous</h1>
+            <form action="#" method="post">
+                <label for="nom" class="lab">Nom :</label>
+                <input type="text" id="nom" name="nom" tabindex="1" required>
+
+                <label for="prenom" class="lab">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" tabindex="2" required>
+
+                <div>
+                    <div class="radio-cont">
+                        <input type="radio" id="homme" name="sexe" tabindex="3">
+                        <label for="homme" class="sex">Masculin</label>
+                        </div>
+                        <div class="radio-container">
+                        <input type="radio" id="femme" name="sexe" tabindex="4">
+                        <label for="femme" class="sex">Feminin</label>
+                        </div>
+                </div>
+                
+
+                <label for="email" class="lab">Email :</label>
+                <input type="email" id="email" name="email" tabindex="5" required>
+
+                <label for="telephone" class="lab">Téléphone :</label>
+                <input type="tel" id="telephone" name="telephone" tabindex="6" required>
+
+                
+                <label for="genre" class="lab">Pays :</label>
+                <select id="genre" name="genre" tabindex="7">
+                    <option>Choisir un pays</option>
+                    <option>Haïti</option>
+                    <option>France</option>
+                    <option>Belgique</option>
+                    <option>Allemagne</option>
+                    <option>Bulgarie</option>
+                    <option>Chypre</option>
+                    <option>Croatie</option>
+                    <option>Danemark</option>
+                    <option>Espagne</option>
+                    <option>Estonie</option>
+                    <option>Finlande</option>
+                    <option>France</option>
+                </select>
+
+                <label for="message" class="lab">Message :</label>
+                <textarea id="message" name="message" rows="4" tabindex="8" required></textarea>
+
+
+                <label for="accepterConditions">
+                    <input type="checkbox" id="accepterConditions" name="accepterConditions" tabindex="9" required>
+                    J'accepte les conditions d'utilisation
+                </label>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><i>Copyright © 2023 Sabine Jean</i></p>
+        <address>
+            <p><a href="mailto:sabine.jean@univ-lyon2.fr" title="Veuillez me contacter à ce mail">sabine.jean@univ-lyon2.fr</a></p>
+            <p>#21, Rue Saint Jean, Tou-du-Nord, Haïti.</p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="CSS Valide !">
+                </a>
+            </p>
+        </address>
+    </footer>
+</body>
+</html>
